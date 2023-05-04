@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/24297e5b08.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css"> 
+    <title>الورشة</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <i class="fa-solid fa-screwdriver-wrench"></i>
+            <h4>الورشه</h4> 
+        </div>
+        
+        <ul class="nav-items active"> <!--new-->
+            <li class="nav-item">
+                <a href="#hero" class="nav-link">حجز موعد صيانة</a>  
+            </li>
+            <li class="nav-item">
+                <a href="#all" class="nav-link">خدمتنا</a>  
+            </li>
+            <li class="nav-item">
+                <a href="#features" class="nav-link">لماذا نحن</a>  
+            </li>
+        </ul>
+        <!--new-->
+        <div class="bars-menu">
+            <i class="fas fa-bars"></i>
+          </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-section" id="hero">
+            <form action="./form/form.html" method="GET"  enctype="multipart/form-data">
+                <div class="title">
+                    يرجى ادخال البيانات التالية لحجز موعد صيانه
+                  </div>
+                <div class="inputfield">
+                    <label for="name">اسم العميل</label>
+                    <input type="text" name="name" id="name" placeholder="اسمك الثلاثى" required>
+                </div>
+                <div class="inputfield">
+                  <label for="phone">رقم الهاتف</label>
+                  <input type="text" name="phone" id="phone" placeholder="01xx xxx xxxx" required>
+                </div>
+                <div class="inputfield">
+                  <label for="motor">رقم الماتور</label>
+                  <input type="text" name="motor" id="motor" placeholder="693456" required>
+                </div>
+                <div class="inputfield">
+                  <label for="chasis">رقم الشاسية</label>
+                  <input type="text" name="chasis" id="chasis" placeholder="6717691" required>
+                </div>
+                <div class="inputfield">
+                    <label>ماركة السيارة</label>
+                    <div class="custom_select">
+                      <select>
+                        <option value="">اختر</option>
+                        <option value="هيونداى">هيونداى</option>
+                        <option value="تويوتا">تويوتا</option>
+                        <option value="كيا">كيا</option>
+                        <option value="نيسان">نيسان</option>
+                        <option value="سوزوكى">سوزوكى</option>
+                        <option value="شفرولية">شفرولية</option>
+                        <option value="فيات">فيات</option>
+                        
+                      </select>
+                    </div>
+                    <button class="btn" type="submit">حجز</button>
+                 </div>
+            </form>
+            <div class="vec">
+              <img src="./web photo/auto-2071876_1280.webp" alt="" height="300cm" width="300cm">
+          </div>
+        </div>
+        
+    </section> 
+    <!--features section-->
+    <section class="features" id="features">
+        <div class="features-section">
+          <h4>لماذا نحن أفضل خيار؟</h4>
+          <div class="qualities">
+            <div class="quality">
+              <i class="fas fa-shipping-fast"></i>
+              <h3>صيانة سريعة</h3>
+              <p>سيارتك تصبح جاهزة فى غصون ساعه ونصف فقط</p>
+            </div>
+            <div class="quality">
+              <i class="fas fa-user-shield"></i>
+              <h3>حماية وأمان</h3>
+              <p>حماية أثناء الدفع الالكتروني</p>
+            </div>
+            <div class="quality">
+              <i class="fas fa-sort-amount-up-alt"></i>
+              <h3>تشكيلة خدمات واسعة</h3>
+              <p>من تغير الزيوت والفلاتر واعمال الكهرباء والسمكرة والدهان الى الغسيل والتلميع</p>
+            </div>
+            <div class="quality">
+              <i class="fas fa-phone-square"></i>
+              <h3>دعم فني</h3>
+              <p>خدمة المساعدة على الطريق على مدار الساعة</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--services-->
+      <section class="all-services" id="all">
+        <div class="services-section">
+          <h4>خدمتنا</h4>
+          <div class="services">
+            <div class="service">
+              <img src="./web photo/fast.jpeg" />
+              <h3>صيانة سريعة</h3>
+            </div>
+            <div class="service">
+              <img src="./web photo/mechanic.jpg" />
+              <h3>اعمال ميكانيكة</h3>
+            </div>
+            <div class="service">
+              <img src="./web photo/electric.jpeg" />
+              <h3>اعمال كهرباء</h3>
+            </div>
+            <div class="service">
+              <img src="./web photo/Suspension system.jpg" />
+              <h3>اعمال عفشة</h3>
+            </div>
+            <div class="service">
+              <img src="./web photo/repair.jpeg" />
+              <h3>اعمال سمكرة</h3>
+            </div>
+            <div class="service">
+              <img src="./web photo/car wash.png" />
+              <h3>غسيل وتلميع</h3>
+            </div>
+          </div>
+          <button class="btn">
+            <a href="#">الى الاعلى</a>
+          </button>
+        </div>
+      </section>
+      <!-- Footer -->
+      <footer>
+        <div class="footer-section">
+          <p>جميع الحقوق محفوظة لشركة الورشة 2023</p>
+          <p>تنفيذ شعبة BIS</p>
+          <div class="socials">
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+          </div>
+        </div>
+      </footer>
+      <script src="./script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&family=Tajawal:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Tajawal', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    max-width: 1366px;
+    height: 10vh;
+    margin: 0 auto;
+    padding: 0 5rem;
+}
+
+nav .logo{
+    display: flex;
+    font-size: 2rem;
+    align-items: center;
+}
+
+nav .logo i {
+    color: #9e0a0a;
+    padding-left: 0.75rem;
+}
+
+nav .logo h4 {
+    font-family: 'Lalezar', cursive;
+}
+
+nav .nav-items {
+    display: flex;
+    list-style-type: none;
+}
+
+nav .nav-items .nav-item {
+    padding: 0 1rem;
+}
+
+nav .nav-link {
+    text-decoration: none;
+    color: #4e574e;
+    font-size: 1.4rem;
+}
+
+nav .nav-link:hover {
+    color: #9e0a0a;
+}
+
+.hero {
+    background-color: #f8f7fc;
+}
+
+.hero-section {
+    max-width: 1366px;
+    height: 90vh;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 5rem;
+}
+
+
+.hero-section .title {
+    font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  margin-top: 80px;
+  color: #9e0a0f;
+  text-align: center;
+}
+.hero-section .title{
+    font-family: 'Lalezar', cursive;
+}
+
+.hero-section .inputfield {
+  font-size:20px;
+  display:flex;
+  flex-direction: column;
+  
+}
+
+.hero-section .inputfield .label {
+  width: 240px;
+  display: inline-block;
+}
+
+.hero-section .inputfield .btn{
+  color: #fff;
+    background-color: #9e0a0a;
+    text-decoration: none;
+    font-size: 0.75em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+    cursor: pointer;
+}
+
+
+.hero-section .vec {
+  margin-left: 150px;
+  margin-top:90px;
+}
+
+/*features section*/
+section.features {
+    padding: 2rem 0;
+    background-color: #f8f7fc;
+  }
+  
+  section.features .features-section {
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 0 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .features-section h4 {
+    color: #9e0a0f;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+  }
+  
+  .features-section .qualities {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .features-section .qualities .quality {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 2rem;
+    max-width: 17rem;
+    border-radius: 1rem;
+    margin: 1rem 1rem;
+  }
+  
+  .features-section .qualities .quality:hover {
+    border: 2px solid #9e0a0f;
+  }
+  
+  .qualities .quality i {
+    font-size: 2rem;
+    color: #9e0a0f;
+    margin-bottom: 1rem;
+  }
+  
+  .qualities .quality h3 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+  
+  .qualities .quality p {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #4e547e;
+  }
+/*services-section*/
+.all-services {
+    padding-top: 5rem;
+  }
+  
+  .all-services .services-section {
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 0 5rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .services-section h4 {
+    color: #9e0a0f;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+  }
+  
+  .services-section .services {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: flex-start;
+  }
+  
+  .services .service {
+    margin: 2rem 0;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .service img {
+    margin-bottom: 1rem;
+  }
+  
+  .service img:hover {
+    scale: 1.1;
+    cursor: pointer;
+  }
+  .service h3 {
+    font-size: 1.6rem;
+  }
+  
+  .services-section button {
+    width: 10rem;
+    background-color: #9e0a0a;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    margin-right: 470px;
+    margin-left: 470px;
+    transition: 0.7s ease;
+    cursor: pointer;
+  }
+  .services-section .btn a{
+    font-size: large;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #f8f7fc;
+    height: 15vh;
+    margin-top: 5rem;
+    padding: 2rem 0;
+  }
+  
+  .footer-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 0 5rem;
+  }
+  
+  .footer-section p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .footer-section .socials {
+    margin-bottom: 1rem;
+  }
+  .footer-section .socials i {
+    padding: 0 0.5rem;
+    font-size: 1.6rem;
+  }
+  
+  .footer-section .socials i:hover {
+    color: #9e0a0f;
+    cursor: pointer;
+  }
+
+  @media (max-width: 1300px) {
+    * {
+      font-size: 85%;
+    }
+  }
+  
+  @media (max-width: 1175px) {
+    * {
+      font-size: 80%;
+    }
+  }
+  
+  @media (max-width: 1000px) {
+    * {
+      text-align: center;
+    }
+    .hero img {
+      display: none;
+    }
+    .hero-section {
+      align-items: center;
+      padding: 2rem 0rem;
+      width: 50%;
+    }
+    .hero .btn {
+      align-self: center;
+    }
+    .hero .content {
+      margin-top: 2rem;
+    }
+    .features-section .qualities {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    section.features .features-section {
+      align-items: center;
+    }
+    .services-section h4 {
+      align-self: center;
+    }
+  }
+  /*new*/
+
+  @media (max-width: 660px) {
+    .hero-section .content h1 {
+      font-size: 2rem;
+    }
+    .services-section {
+      align-items: center;
+    }
+    .services-section .services {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  @media (max-width: 504px) {
+    .services-section .services {
+      grid-template-columns: 1fr;
+    }
+    nav {
+      position: sticky;
+      top: 0;
+      width: 100%;
+    }
+    nav .bars-menu {
+      display: block;
+      font-size: 3rem;
+      cursor: pointer;
+    }
+    nav .nav-items {
+      position: absolute;
+      left: 0;
+      top: 10vh;
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      background-color: #9e0a0f;
+      padding: 2rem 0;
+    }
+    nav .nav-items .nav-item {
+      margin: 1rem 0;
+    }
+    nav .nav-items .nav-item a {
+      color: white;
+    }
+    nav .nav-items.active {
+      display: flex;
+    }
+  }
